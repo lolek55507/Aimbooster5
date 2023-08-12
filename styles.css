@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blue;
+}
+#canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    opacity: 0;
+}
+#orange { 
+    display: none; 
+}
+#startButton {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+h1, span {
+    color: white;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+#clp {
+    opacity: 1;
+}
